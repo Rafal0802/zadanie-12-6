@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;	
+}
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	h1, h2 {
+		margin: 20px 0;
+	}
+	#search {
+		padding: 5px;
+		background-color: lightblue;
+	}
+	#country-name {
+		padding: 5px;
+	}
+	#countries {
+		margin-bottom: 80px;
+		.table-header {
+			th {
+				border: 1px solid #000;
+			}
+			.flag img {
+				width: 300px;
+				border: 1px solid #000;
+				margin: 20px;
+			}
+			.name {
+				font-size: 50px;
+				text-transform: uppercase;
+				vertical-align: middle;
+				padding: 10px 25px;
+				width: 500px;
+			}
+		}
+		tr td {
+			border: 1px solid #000;
+			padding: 7px;
+		}
+	}
+}

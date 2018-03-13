@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+main h1, main h2 {
+  margin: 20px 0;
+}
+
+main #search {
+  padding: 5px;
+  background-color: lightblue;
+}
+
+main #country-name {
+  padding: 5px;
+}
+
+main #countries {
+  margin-bottom: 80px;
+}
+
+main #countries .table-header th {
+  border: 1px solid #000;
+}
+
+main #countries .table-header .flag img {
+  width: 300px;
+  border: 1px solid #000;
+  margin: 20px;
+}
+
+main #countries .table-header .name {
+  font-size: 50px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  padding: 10px 25px;
+  width: 500px;
+}
+
+main #countries tr td {
+  border: 1px solid #000;
+  padding: 7px;
+}
+/*# sourceMappingURL=style.css.map */
